@@ -62,7 +62,7 @@
 div .overlay {
   min-height: 757px;
   z-index: -1; 
-}
+  }
 
 .overlay {
   position: absolute;
