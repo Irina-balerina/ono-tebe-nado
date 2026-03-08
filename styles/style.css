@@ -35,11 +35,11 @@
   height: 104px;
 }
 
-.header__address { 
+.header__address {
   max-width: 240px;
   font-style: normal;
   text-align: left;
-  justify-self: end;  
+  justify-self: end;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -55,13 +55,13 @@
   margin: 0 0 180px;
   position: relative;
   background-image: url("../images/cover.jpg");
-  background-size: cover;  
+  background-size: cover;
 }
 
 
 div .overlay {
   min-height: 757px;
-  z-index: -1; 
+  z-index: -1;
 }
 
 .overlay {
@@ -69,7 +69,7 @@ div .overlay {
   width: 100%;
   height: 100%;
   background-color: rgb(0 0 0/0.6);
-  inset: 0;   
+  inset: 0;
 }
 
 .cover__title {
@@ -83,12 +83,12 @@ div .overlay {
   display: flex;
   flex-direction: column;
   text-align: center;
-  z-index: 1; 
+  z-index: 1;
   margin-bottom: 106px; 
 }
 
 .aligned-text {
-  display: block;  
+  display: block;
 }
 
 .aligned-text_left {
@@ -135,7 +135,7 @@ div .overlay {
 .lots { /* верх и низ сомнительный. нижний элемент вылезает вниз на 2пкс */
   padding: 0;
   margin: 0 24px 120px;
-  position: relative;  
+  position: relative;
 }
 
 .lots__heading {
@@ -150,8 +150,8 @@ div .overlay {
 .lots__card-list {
   display: flex;
   gap: 25px;
-  list-style: none; 
-  margin-bottom: 30px; 
+  list-style: none;
+  margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -167,7 +167,7 @@ div .overlay {
 .card {
   height: 100%;
   position: relative;
-  z-index: 1;  
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -194,12 +194,12 @@ div .overlay {
 }
 
 .card__title {
-  position: relative;  
-  z-index: 1; 
+  position: relative;
+  z-index: 1;
   color: #FFF;
-  padding-top: 48px;  
+  padding-top: 48px;
   width: 254px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   text-decoration: underline;
   font-size: 22px;
   font-weight: 700;
@@ -207,7 +207,7 @@ div .overlay {
 
 .card__text {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   width: 254px;
   font-size: 20px;
   color: #FFF;
@@ -252,7 +252,7 @@ div .overlay {
   font-size: 40px;
   text-transform: uppercase;
   margin-top: 100px;
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
 }
 
 .about__text {
@@ -262,8 +262,7 @@ div .overlay {
   font-size: 20px;
 }
 
-.footer 
-{
+.footer {
   padding: 0 50px 82px;
   display: grid;
   grid-template-columns: 264px 1fr 240px;
@@ -271,8 +270,7 @@ div .overlay {
   font-size: 18px; 
 }
 
-.footer__address 
-{
+.footer__address {
   width: 264px;
   display: flex;
   flex-direction: column; 
