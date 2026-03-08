@@ -84,7 +84,7 @@ div .overlay {
   flex-direction: column;
   text-align: center;
   z-index: 1;
-  margin-bottom: 106px; 
+  margin-bottom: 106px;
 }
 
 .aligned-text {
@@ -266,15 +266,15 @@ div .overlay {
   padding: 0 50px 82px;
   display: grid;
   grid-template-columns: 264px 1fr 240px;
-  justify-items: center; 
-  font-size: 18px; 
+  justify-items: center;
+  font-size: 18px;
 }
 
 .footer__address {
   width: 264px;
   display: flex;
   flex-direction: column; 
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .footer__address a {
@@ -284,7 +284,7 @@ div .overlay {
 
 .footer__menu-list {
   list-style: none;
-  text-align: center;  
+  text-align: center;
 }
 
 .footer__menu-link {
@@ -299,7 +299,7 @@ div .overlay {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
-  list-style: none;  
+  list-style: none;
 }
 
 .footer__social-icon {
