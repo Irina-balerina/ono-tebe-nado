@@ -273,7 +273,7 @@ div .overlay {
 .footer__address {
   width: 264px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
 }
 
