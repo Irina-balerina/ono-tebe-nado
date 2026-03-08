@@ -58,6 +58,7 @@
   background-size: cover;  
 }
 
+
 div .overlay {
   min-height: 757px;
   z-index: -1; 
@@ -261,7 +262,8 @@ div .overlay {
   font-size: 20px;
 }
 
-.footer {
+.footer 
+{
   padding: 0 50px 82px;
   display: grid;
   grid-template-columns: 264px 1fr 240px;
@@ -269,7 +271,8 @@ div .overlay {
   font-size: 18px; 
 }
 
-.footer__address {
+.footer__address 
+{
   width: 264px;
   display: flex;
   flex-direction: column; 
